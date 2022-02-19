@@ -1,0 +1,5 @@
+﻿{
+  "SqlDb": {
+    "ConnectionString": "Server=.\\SQLEXPRESS; Database=WADB; Trusted_Connection=True; MultipleActiveResultSets=true"
+  }
+}

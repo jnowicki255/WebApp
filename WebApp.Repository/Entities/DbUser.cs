@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace WebApp.Repository.Entities
 {
     [Index(nameof(Username), Name = "UQ_Users_Username", IsUnique = true)]
-    internal partial class DbUser
+    public partial class DbUser
     {
         [Key]
         public int UserId { get; set; }
