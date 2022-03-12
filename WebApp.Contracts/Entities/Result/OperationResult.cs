@@ -14,6 +14,10 @@
             : base(errorMessage, errorContext)
         { }
 
+        public OperationResult(Error error)
+            : base(error)
+        { }
+
         public OperationResult(Exception ex)
             : base(ex)
         { }

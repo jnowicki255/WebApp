@@ -10,4 +10,8 @@
     <ProjectReference Include="..\WebApp.Repository\WebApp.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
 </Project>

@@ -19,6 +19,11 @@ namespace WebApp.Contracts.Entities.Result
             Error = new Error(errorMessage, errorContext);
         }
 
+        public BaseOperationResult(Error error)
+        {
+            Error = error;
+        }
+
         public BaseOperationResult(Exception ex)
         {
             Error = new Error(ex.Message, ex.GetType().Name);
